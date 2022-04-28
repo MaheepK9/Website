@@ -22,7 +22,7 @@ body {
 }
 .form-content  {
 	
-	margin: 0px 0;
+	margin: 22px 0;
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	display: flex;
@@ -39,7 +39,7 @@ body {
 	width: 100%;
 	position: relative;
 	box-shadow: 10px 8px 5px 10px rgba(0, 0, 0, 0.15);
-	margin-top: -40px;
+	margin-top: -55px;
 	
 }
 
@@ -60,8 +60,8 @@ body {
 .form-content .form-detail .form-row label {
 	color: rgb(66, 63, 63);
 	font-weight: 600;
-	font-size: 13px;
-	margin-bottom: 3px;
+	font-size: 16px;
+	margin-bottom: 0px;
 	font-family: 'Open Sans', sans-serif;
 }
 .form-content .form-detail .form-row label#valid {
@@ -95,29 +95,31 @@ body {
 .form-content .form-detail .form-row label.error {
 	padding-left: 0;
 	margin-left: 0;
+	margin-top: 18;
     display: block;
     position: absolute;
-    bottom: 5px;
+    bottom: 1px;
     width: 100%;
     background: none;
     color: red;
+	font-size: 13px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+	
 }
 .form-content .form-detail .form-row label.error::after {
-    content: "\f343";
-    font-family: "LineAwesome";
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    right: 10px;
+  
+
+	
+    border-radius: 5px;
+    position: relative;
+	 position: absolute;
     top: -25px;
-    color: red;
-    font-size: 18px;
-    font-weight: 900;
+    right: 15px;
+    content: "\274c"; 
+    font-size: 15px; 
+    line-height: 10px;
+    text-align: center;
 }
 .form-content .form-detail .input-text {
 	margin-bottom: 20px;

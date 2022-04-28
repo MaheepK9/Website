@@ -19,7 +19,7 @@
 	<div class="page-content">
 		<div class="form-content">
 			<div class="form-left">
-				<img src="Group 2 (2).png" alt="form">	
+				<img src="Group 2.png" alt="form">	
 			</div>
 			
 		
@@ -32,28 +32,28 @@
 			
 				<div class="form-row">
 					<label for="name">Name</label>
-					<input type="text" name="name" id="username" placeholder="eg : First Last" style="font-size: 9px;" class="input-text" required />
+					<input type="text" name="name" id="username" placeholder="eg : First Last" style="font-size: 10px;" class="input-text" required />
 				</div>
 				<div class="form-row">
 					<label for="email">E-Mail</label>
-					<input type="email" name="email" id="email" class="input-text" placeholder="eg : xyz@gmail.com" style="font-size: 9px;" pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
+					<input type="email" name="email" id="email" class="input-text" placeholder="eg : xyz@gmail.com" style="font-size: 10px;" pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
 				</div>
 				<div class="form-row">
 					<label for="branch">Branch</label>
-					<input type="text" name="branch" id="branch" placeholder="eg : EC" style="font-size: 9px;" class="input-text" required />
+					<input type="text" name="branch" id="branch" placeholder="eg : EC" style="font-size: 10px;" class="input-text" required />
 				</div>
 				<div class="form-row">
 					<label for="section">Section</label>
-					<input type="text" name="section" id="section" placeholder="eg : EC-2" style="font-size: 9px;" class="input-text" required />
+					<input type="text" name="section" id="section" placeholder="eg : EC-2 " style="font-size: 10px;" class="input-text" required />
 				</div>
 				
 				<div class="form-row">
 					<label for="phone_no">Phone</label>
-					<input type="number" name="phone_no" id="phone_no" class="input-text" placeholder="eg : 74510XXXXX" style="font-size: 9px;" pattern="[789][0-9]{9}" title="Please enter valid phone number" required />
+					<input type="tel" name="phone_no" id="phone_no" class="input-text" placeholder="eg : 74510XXXXX" style="font-size: 10px;" onkeypress=" onlyNumberKey(event)" minlength="10" maxlength="10" pattern="[789][0-9]{9}"  required />
 				</div>
 				<div class="form-row">
 					<label for="number">Student Number</label>
-					<input type="number" name="student_no" id="student_no" class="input-text"  placeholder="eg : 21XX037" style="font-size: 9px;" min="2100000" max="2199999" title="Please enter valid student number" required />
+					<input type="text" name="student_no" id="student_no" class="input-text" placeholder="eg : 2131000" style="font-size: 10px;" onkeypress=" onlyNumberKey(event)" minlength="7" maxlength="7" pattern="[2][0-9]{6}" required />
 				</div>
 
 
@@ -152,5 +152,6 @@
 			}
 		})
 	</script>
+	
 </body>
 </html>
